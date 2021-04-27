@@ -10,83 +10,51 @@
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600&display=swap"
       rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      
     />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!--Main Navigation-->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <!-- collapse button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#basicExampleNav"
-          aria-controls="basicExampleNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <header class="container-fluid cyan lighten-3 ">
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-end"  >
+      <a class="navbar-brand font-weight-bold" href='#'>clinicPesa</a>
 
-        <!-- collapse content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-          <!-- Links -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div
-                class="dropdown-menu dropdown-primary"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
 
-          <form class="form-inline">
-            <div class="md-form my-0">
-              <input
-                class="form-control mr-sm-2"
-                type="text"
-                placeholder="search"
-              />
+      <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar"> -->
+       <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href='#!'>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href='#!'>Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href='#!'>Features</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href='#'>Login</a>
+            <div class="dropdown-menu">
+               <a class="dropdown-item" href="#">Link1</a>
+               <a class="dropdown-item" href="#">Link1</a>
+               <a class="dropdown-item" href="#">Link1</a>
             </div>
-          </form>
-        </div>
-      </nav>
+          </li>
+      </ul>
+    </div>
+    </nav>
     </header>
     <!--Main Navigation-->
 
     <!--Main layout-->
-    <main>
+    <main class="mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 mb-4">
             <div class="view overlay z-depth-1-half">
               <img
                 src="./assets/christina.jpg"
@@ -97,24 +65,24 @@
             </div>
           </div>
 
-          <div class="col-md-5">
+          <div class="col-md-5 mb-4">
             <h2>Women In Tech</h2>
             <hr />
             <p>
               Come join our talks about tech and enjoy the company of other
               women as you get to know each other better.
             </p>
-            <a href="#" class="btn btn-primary">Get it now!</a>
+            <a href="#" class="btn btn-info">Get it now!</a>
           </div>
         </div>
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-lg-4 col-md-12" id="column1">
+          <div class="col-lg-4 col-md-12 mb-4" id="column1">
             <!--Card-->
-            <div class="card">
+            <div class="card ">
               <!--Card image-->
-              <div class="view overlay">
+              <div class="view overlay ">
                 <img
                   src="./assets/accessories.jpg"
                   alt="accessories"
@@ -130,12 +98,12 @@
                 <h4 class="card-title">Accessories</h4>
                 <!--Text-->
                 <p>Get quality and most durable accessories from us.</p>
-                <a href="#!" class="btn btn-success mdbWavesEffect">Shop now</a>
+                <a href="#!" class="btn btn-info mdbWavesEffect">Shop now</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" id="column2">
+          <div class="col-lg-4 col-md-6 mb-4" id="column2">
             <!--Card-->
             <div class="card">
               <!--Card image-->
@@ -144,6 +112,7 @@
                   src="./assets/globe.jpg"
                   alt="accessories"
                   class="card-img-top"
+                  
                 />
                 <a href="#!">
                   <div class="mask rgba-white-light"></div>
@@ -155,11 +124,11 @@
                 <h4 class="card-title">Accessories</h4>
                 <!--Text-->
                 <p>Get quality and most durable accessories from us.</p>
-                <a href="#!" class="btn btn-success mdbWavesEffect">Explore</a>
+                <a href="#!" class="btn btn-info mdbWavesEffect">Explore</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" id="column3">
+          <div class="col-lg-4 col-md-6 mb-4" id="column3">
             <!--Card-->
             <div class="card">
               <!--Card image-->
@@ -179,7 +148,7 @@
                 <h4 class="card-title">Accessories</h4>
                 <!--Text-->
                 <p>Get quality and most durable accessories from us.</p>
-                <a href="#!" class="btn btn-success mdbWavesEffect">Try it out</a>
+                <a href="#!" class="btn btn-info mdbWavesEffect">Try it out</a>
               </div>
             </div>
           </div>
@@ -190,9 +159,9 @@
     <!--Main layout-->
 
     <!--Footer-->
-    <footer class="page-footer font-small blue pt-4 mt-4">
+    <footer class="page-footer font-small grey pt-4 mt-4">
       <!-- Footer Links -->
-      <div class="container-fluid">
+      <div class="container">
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
@@ -225,8 +194,9 @@
         </div>
       </div>
       <!-- Copyright -->
-      <div class="footer-copyright text-center">
-
+      <div class="footer-copyright text-center py-3">
+        ©2021 Copyright:
+        <a href="#!">MDBootstrap.com</a>
       </div>
     </footer>
     <!--Footer-->
