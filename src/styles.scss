@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f5f5f5;
+}
 
+.nav-link {
+  font-size: 25px;
+  font-family: "Lateef", cursive;
+}
+.card-image {
+  background-image: url(./assets/globe.jpg);
+  background-size: cover;
+}
 // .navbar{
 //   background-color: black;
 // }
@@ -10,9 +21,9 @@
 //     border:solid;
 // }
 // #column2{
-//      border: solid;
-// }
+//      border-style: none;
+//      height: 100px;
+//  }
 // #column3{
 //     border: solid;
 // }
-
