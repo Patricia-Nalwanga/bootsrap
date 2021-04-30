@@ -13,8 +13,5 @@ export const routes: Routes = [
         path: 'landingpage',
         component: LandingPageComponent
     },
-    {
-        path:'', redirectTo: '/home', pathMatch: 'full'
-        
-    }
+    
 ]
