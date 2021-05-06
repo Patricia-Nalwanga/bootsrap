@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing/app-routing.module";
+import { RouterModule} from "@angular/router";
 
 import { LandingPageComponent } from "./landing-page/landing-page.component";
 import { HomeComponent } from './home/home.component';
